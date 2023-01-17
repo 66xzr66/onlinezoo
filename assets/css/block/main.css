@@ -1,0 +1,48 @@
+main {
+    background-image: url('../../img/Giant_Panda.jpg');
+    height: 504px;
+}
+
+.main_content {
+    width: 400px;
+    float: right;
+    margin: 42px;
+}
+
+h1 {
+    margin: 0;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 85px;
+    text-align: center;
+    line-height: 75%;
+    z-index: 2;
+}
+
+button {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    width: 298px;
+    height: 54px;
+    display: block;
+    margin: 40px auto;
+}
+
+span {
+    color: #FFEE2E;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 367px;
+    height: 367px;
+    background-color: #F9804B;
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    top: -30px;
+}

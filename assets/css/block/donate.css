@@ -1,0 +1,48 @@
+.panda {
+    margin: 0px;
+    position: relative;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 374px;
+    line-height: 140%;
+}
+
+.box {
+    border: 1px solid black;
+    position: absolute;
+    width: 1158px;
+    height: 872px;
+    left: calc(50% - 1158px/2 - 1px);
+    top: 1503px;
+    }      
+.pandbox {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #FA6F32;
+    position: absolute;
+    width: 368px;
+    height: 426px;
+}
+.eaglejpg {
+    margin: -44px;
+    position: relative;
+    align-items: center;
+}
+
+h5 {
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 374px;
+}
+.box2 {
+    position: absolute;
+    width: 366px;
+    height: 366px;
+}

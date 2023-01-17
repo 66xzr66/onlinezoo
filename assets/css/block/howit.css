@@ -1,0 +1,23 @@
+.howitcontent {
+    display: flex;
+    gap: 87px;
+    height: 403px;
+    width: 100%;
+}
+h2 {
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+}
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.howitworks {
+    background: url("../../img/flower_foto1.png") no-repeat right;
+    background-size: contain;
+}
