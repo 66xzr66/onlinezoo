@@ -4,6 +4,10 @@
 
 @import url("./block/animals.css");
 
+@import url("./block/pick_and_feed.css");
+
+@import url("./block/desktop_petstory.css");
+
 * {
     font-family: 'Roboto', sans-serif;
 }

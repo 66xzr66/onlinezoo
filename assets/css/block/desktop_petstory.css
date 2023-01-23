@@ -1,0 +1,59 @@
+.desktop_petstory {
+    height: 4975px;
+
+}
+.testimonials {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    margin-top: 140px;
+}
+.testimonial1 {
+    box-sizing: border-box;
+    width: 268px;
+    height: 391px;
+    background-color: #F1F3F2;
+    border-radius: 20px;
+    margin-top: 47px;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+}
+.avatarka {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.name1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: -40px;
+    margin-left: 63px;
+}
+.austria {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+    margin-left: 63px;
+    margin-top: -15px;
+}
+.testimonialmichael {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    margin-left: 26px;
+    margin-right: 25px;
+}
