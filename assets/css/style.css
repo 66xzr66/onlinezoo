@@ -8,6 +8,8 @@
 
 @import url("./block/desktop_petstory.css");
 
+@import url("./block/graybg.css");
+
 * {
     font-family: 'Roboto', sans-serif;
 }

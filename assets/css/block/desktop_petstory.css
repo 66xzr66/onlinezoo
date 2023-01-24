@@ -1,5 +1,5 @@
 .desktop_petstory {
-    height: 4975px;
+    height: 750px;
 
 }
 .testimonials {
@@ -40,13 +40,11 @@
 }
 .testimonialmichael {
     display: -webkit-box;
-    -webkit-line-clamp: 12;
+    -webkit-line-clamp: 14;
     -webkit-box-orient: vertical;
     overflow: hidden;
 
-    /*white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;*/
+
     
     text-align: center;
 
@@ -56,4 +54,146 @@
     color: #767474;
     margin-left: 26px;
     margin-right: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+.testimonial2 {
+    box-sizing: border-box;
+    width: 268px;
+    height: 391px;
+    background-color: #F1F3F2;
+    border-radius: 20px;
+    margin-top: -391px;
+    margin-left: 300px;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+}
+.oskar {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.name2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: -40px;
+    margin-left: 63px;
+}
+.localaustria {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+    margin-left: 63px;
+    margin-top: -15px;
+}
+.testimonialoskar {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    margin-left: 26px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.testimonial3 {
+    box-sizing: border-box;
+    width: 268px;
+    height: 391px;
+    background-color: #F1F3F2;
+    border-radius: 20px;
+    margin-top: -391px;
+    margin-left: 600px;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+}
+.fredericka {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.name3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: -40px;
+    margin-left: 63px;
+}
+.localaustria2 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+    margin-left: 63px;
+    margin-top: -15px;
+}
+.testimonialfredericka {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    margin-left: 26px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.testimonial4 {
+    box-sizing: border-box;
+    width: 268px;
+    height: 391px;
+    background-color: #F1F3F2;
+    border-radius: 20px;
+    margin-top: -391px;
+    margin-left: 900px;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+}
+.mila {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.name4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: -40px;
+    margin-left: 63px;
+}
+.localaustria3 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+    margin-left: 63px;
+    margin-top: -15px;
+}
+.testimonialmila {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    margin-left: 26px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.leav_foto {
+    margin-left: 1130px;
+}
+.feedback {
+    border-radius: 5px;
+    margin-top: -250px;
+    margin-left: 0px;
 }
