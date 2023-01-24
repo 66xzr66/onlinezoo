@@ -6,9 +6,9 @@
 
 @import url("./block/pick_and_feed.css");
 
-@import url("./block/desktop_petstory.css");
+@import url("./block/testimonials.css");
 
-@import url("./block/graybg.css");
+@import url("./block/footer.css");
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -52,6 +52,7 @@ li:hover, .author:hover {
     border-radius: 2px;
     text-align: center;
     padding: 4px;
+    color: #fff;
     position: relative;
 }
 

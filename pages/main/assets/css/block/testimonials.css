@@ -1,22 +1,23 @@
-.desktop_petstory {
-    height: 750px;
-
-}
 .testimonials {
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 130%;
-    text-align: center;
-    margin-top: 140px;
+    height: 750px;
+    background: url('../../img/leav_foto.svg') no-repeat bottom right;
 }
-.testimonial1 {
-    box-sizing: border-box;
+.testimonials_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.gradient {
+    background: linear-gradient(to left, #e7a997bd, #f3e1e1);
+    padding: 1px;
+    border-radius: 20px;
+}
+.testimonial {
     width: 268px;
     height: 391px;
-    background-color: #F1F3F2;
     border-radius: 20px;
-    margin-top: 47px;
-    border: 2px solid rgba(254, 189, 171, 0.74);
+    box-sizing: border-box;
+    background-color: #F1F3F2;
+    overflow: hidden;
 }
 .avatarka {
     margin-left: 16px;
@@ -38,16 +39,13 @@
     margin-left: 63px;
     margin-top: -15px;
 }
-.testimonialmichael {
+.testimonial_text {
     display: -webkit-box;
-    -webkit-line-clamp: 14;
-    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 16;
     overflow: hidden;
-
-
-    
-    text-align: center;
-
+    text-overflow: ellipsis;
+    white-space: wrap;
+    -webkit-box-orient: vertical;
     font-weight: 300;
     font-size: 15px;
     line-height: 120%;
@@ -56,17 +54,18 @@
     margin-right: 25px;
     margin-top: 10px;
     text-align: left;
+    position: relative;
 }
-.testimonial2 {
-    box-sizing: border-box;
-    width: 268px;
-    height: 391px;
-    background-color: #F1F3F2;
-    border-radius: 20px;
-    margin-top: -391px;
-    margin-left: 300px;
-    border: 2px solid rgba(254, 189, 171, 0.74);
-}
+.testimonial_text:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(180deg, transparent, #F1F3F2 100%);
+  }
+
 .oskar {
     margin-left: 16px;
     margin-top: 15px;
@@ -87,30 +86,6 @@
     margin-left: 63px;
     margin-top: -15px;
 }
-.testimonialoskar {
-    display: -webkit-box;
-    -webkit-line-clamp: 12;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 120%;
-    color: #767474;
-    margin-left: 26px;
-    margin-right: 25px;
-    margin-top: 10px;
-}
-.testimonial3 {
-    box-sizing: border-box;
-    width: 268px;
-    height: 391px;
-    background-color: #F1F3F2;
-    border-radius: 20px;
-    margin-top: -391px;
-    margin-left: 600px;
-    border: 2px solid rgba(254, 189, 171, 0.74);
-}
 .fredericka {
     margin-left: 16px;
     margin-top: 15px;
@@ -130,30 +105,6 @@
     color: #BDBDBD;
     margin-left: 63px;
     margin-top: -15px;
-}
-.testimonialfredericka {
-    display: -webkit-box;
-    -webkit-line-clamp: 12;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 120%;
-    color: #767474;
-    margin-left: 26px;
-    margin-right: 25px;
-    margin-top: 10px;
-}
-.testimonial4 {
-    box-sizing: border-box;
-    width: 268px;
-    height: 391px;
-    background-color: #F1F3F2;
-    border-radius: 20px;
-    margin-top: -391px;
-    margin-left: 900px;
-    border: 2px solid rgba(254, 189, 171, 0.74);
 }
 .mila {
     margin-left: 16px;
@@ -194,6 +145,33 @@
 }
 .feedback {
     border-radius: 5px;
-    margin-top: -250px;
-    margin-left: 0px;
+    margin-left: 0;
+}
+input[type="range"] {
+    appearance: none;
+    position: absolute;
+    width: 599px;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-color: #F5F7F6;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    height: 7px;
+    width: 115px;
+    border-radius: 5px;
+    background: #FE9013;
+    cursor: pointer;
+}
+.range_gradient {
+    margin: 21px auto;
+    background: linear-gradient(to left, #e7a997bd, #f3e1e1);
+    padding: 1px;
+    border-radius: 5px;
+    width: 599px;
+    height: 7px;
+    position: relative;
 }
