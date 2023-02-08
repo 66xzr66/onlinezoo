@@ -1,0 +1,29 @@
+main {
+    background-image: url('../../../../main/assets/img/Giant_Panda.jpg');
+    height: 504px;
+}
+.main_content {
+    width: 400px;
+    float: right;
+    margin: 42px;
+}
+button {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    width: 298px;
+    height: 54px;
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #E47209;
+}
+
+button:active {
+    background: #4B9200;
+    /* animation: rotate 1s infinite linear; */
+}

@@ -1,0 +1,52 @@
+header {
+    background-color: #000;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    margin: 0;
+}
+
+li {
+    color: #fff;
+    list-style: none;
+    display: inline;
+}
+
+li:hover, .author:hover {
+    color: #F9804B;
+    cursor: pointer;
+}
+
+.author {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-align: center;
+    padding: 4px;
+    color: #fff;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bamboo {
+    position: absolute;
+    top: 20px;
+    left: 8px;
+}
