@@ -77,13 +77,13 @@ h4 {
     background: #404950;
     position: relative;
     height: 27px;
-    width: 976px;
+    max-width: 976px;
 }
 .amount_values::after {
     content: "";
     position: absolute;
     height: 2px;
-    width: 930px;
+    max-width: 930px;
     background: #72828E;
     top: 50%;
     left: 2%;
@@ -231,4 +231,10 @@ label {
 }
 .share {
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .amount_values label:first-child {
+        display: none;
+    }
 }
