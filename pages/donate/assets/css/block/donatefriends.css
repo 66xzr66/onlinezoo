@@ -83,10 +83,10 @@ h4 {
     content: "";
     position: absolute;
     height: 2px;
-    max-width: 930px;
     background: #72828E;
     top: 50%;
-    left: 2%;
+    left: 3%;
+    right: 3%;
 }
 .amount_values label input {
     opacity: 0;
@@ -141,10 +141,10 @@ h4 {
 }
 .input_symbol {
     position: relative;
-    margin-top: 68px;
     display: flex;
     justify-content: center;
-    
+    width: 268px;
+    margin: 68px auto;
 }
 .input_symbol > input {
     background-color: inherit;
@@ -153,15 +153,15 @@ h4 {
     appearance: none;
     padding: 15px 10px;
     border-radius: 2px;
+    width: 100%;
 }
 .input_symbol > .currency_symbol {
     position: absolute;
     display: block;
     transform: translate(0, -50%);
     top: 50%;
-    right: 0;
+    right: 10px;
     color: #929699;
-    right: 360px;
     font-weight: 600;
     font-size: 22px;
 }
