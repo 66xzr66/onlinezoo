@@ -175,3 +175,13 @@ input[type="range"]::-webkit-slider-thumb {
     height: 7px;
     position: relative;
 }
+ @media (max-width: 1000px) {
+    .testimonials_wrapper {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        width: 100%;
+        gap: 30px;
+        
+    }
+ }

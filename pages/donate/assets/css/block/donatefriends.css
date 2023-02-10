@@ -4,13 +4,13 @@
     padding-top: 69px;
 }
 .donate_friends {
-    height: 835px;
     background: rgba(255, 255, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
     padding-top: 40px;
     padding-left: 92px;
     padding-right: 92px;
+    padding-bottom: 100px;
 }
 .reopen {
     font-size: 36px;
@@ -108,4 +108,127 @@ h4 {
     top: -15px;
     left: 15px;
     z-index: 2;
+    cursor: pointer;
+}
+.amount_values label:hover span{ 
+    background: #FE9013;
+    transition: 0.5s;
+}
+.amount_values label input:checked ~ span::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #FE9013;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.amount_values label input:checked ~ span::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #FE9013;
+    width: 23px;
+    height: 23px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.amount_values label input:checked ~ .label_amount{
+    color: #FE9013;
+}
+.input_symbol {
+    position: relative;
+    margin-top: 68px;
+    display: flex;
+    justify-content: center;
+    
+}
+.input_symbol > input {
+    background-color: inherit;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    appearance: none;
+    padding: 15px 10px;
+    border-radius: 2px;
+}
+.input_symbol > .currency_symbol {
+    position: absolute;
+    display: block;
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 0;
+    color: #929699;
+    right: 360px;
+    font-weight: 600;
+    font-size: 22px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.type_amount {
+    height: 24px;
+    width: 268px;
+}
+input[type="number"]{
+    color: #4B9200;
+  }
+input[type="number"]:focus{
+    border-color: #4B9200;
+    color: #4B9200;
+}
+input[type="number"]:focus::placeholder{
+color: #4B9200;
+}
+input {
+    outline: none;
+}
+input[type="number"]:focus ~ .currency_symbol{
+    border-color: #4B9200;
+    color: #4B9200;
+}
+/* .amount_periodicity_radio {
+    border: 1px solid #FE9013;
+} */
+input[type="radio"] {
+    position: relative;
+    visibility: hidden;
+    cursor: pointer;
+}
+input[type="radio"]::after {
+    content: "";
+    position: absolute;
+    border-color: #FE9013;
+    border: 2px solid #FE9013;
+    width: 15px;
+    height: 15px;
+    visibility: visible;
+    border-radius: 50%;
+    display: inline-block;
+}
+input[type="radio"]:checked:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    visibility: visible;
+    border-radius: 50%;
+    background-color: #4B9200;
+    border: 2px solid #4B9200;
+}
+label {
+    margin-left: 10px;
+}
+.periodicity {
+    display: flex;
+    justify-content: center;  
+    margin-top: 30px;
+    gap: 50px;
+}
+.share {
+    text-align: center;
 }
