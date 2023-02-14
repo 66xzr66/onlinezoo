@@ -1,6 +1,5 @@
 header {
     background-color: #000;
-    
 }
 nav {
     display: flex;
@@ -8,11 +7,12 @@ nav {
     justify-content: space-between;
     height: 60px;
 }
-ul {
+.pc_menu {
     display: flex;
     align-items: center;
     gap: 58px;
     margin: 0;
+    padding: 0;
 }
 
 li {
@@ -38,6 +38,7 @@ li:hover, .author:hover {
     padding: 4px;
     color: #fff;
     position: relative;
+    z-index: 2;
 }
 
 a {
@@ -49,4 +50,117 @@ a {
     position: absolute;
     top: 20px;
     left: 8px;
+    filter: url('../../icons/bamboo.svg'); /* TODO */
+}
+
+.mobile {
+    display: none;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.mobile span {
+    position: absolute;
+    display: block;
+    height: 0.2em;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    transition-delay: .25s;
+}
+
+.mobile span::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    top: -10px;
+    transition: transform .25s, top .25s .25s;
+}
+.mobile span::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    top: 10px;
+    transition: transform .25s, top .25s .25s;
+}
+
+.mobile.active span {
+    background: inherit;
+    transition-delay: .25s;
+
+}
+.mobile.active span::before {
+    transition: top .25s, transform .25s .25s;
+    top: 0;
+    background-color: #000;
+    transform: rotate(45deg);
+}
+.mobile.active span::after {
+    transition: top 0.4s, transform .25s .25s;
+    top: 0;
+    background-color: #000;
+    transform: rotate(-45deg);
+}
+.burger_menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 20%;
+    /* transition: all 0.25s; */
+    /* transition: transform 0.25s, left 0.25s; */
+    /* transform: translateX(0); */
+    left: 0;
+}
+.burger_menu.active {
+    display: block;
+    /* left: 100%; */
+    /* transform: translateX(-100px); */
+}
+.logo.active a {
+    color: #FE9013;
+}
+.logo.active {
+    border-color: #FE9013;
+}
+.burger_menu {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.burger_menu li a {
+    color: #000;
+}
+.burger_menu.active {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+.burger_menu li {
+    color: #000;
+}
+.burger.active {
+    color: #000;
+    /*  */
+    /* display: block; */
+    /* left: ; */
+}
+
+
+@media (max-width: 640px) {
+    .mobile {
+        display: block;
+    }
+    .burger, .author {
+        display: none;
+    }
 }
