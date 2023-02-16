@@ -81,28 +81,72 @@ form:invalid .dntvolounters {
     display: flex;
     gap: 10px;
     flex-direction: column;
-    
 }
 .about {
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size: 16px;
-    margin-top: 0px;
+    gap: 58px;
+    margin: 0px;
+    padding: 0px;
 }
 .authorname {
     font-weight: 100;
     line-height: 200%;
     color: #FFFFFF;
     opacity: 50%;
-
 }
 .blocks {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    width: 100%;
+}
+.logo_box {
+    grid-column: 1 / 3;
+}
+.about {
+    align-self: flex-end;
+}
+.authorname {
+    align-self: flex-end;
+    justify-self: end;
 }
 .mygithub {
     color: #FFFFFF;
     text-decoration: none;
+}
+@media (max-width:640px) {
+    .blocks {
+        grid-template-columns: repeat(2, 1fr);
+        /* column-gap: 40px; */
+        /* align-items: end; */
+    }
+    .subscribe_mobile {
+        display: none;
+    }
+    .about {
+        gap: 36px;
+    }
+    .networks {
+        display: none;
+    }
+    .social {
+        justify-self: end;
+    }
+    .logo_box {
+        grid-column: auto;
+    }
+    .authorname {
+        align-self: end;
+    }
+}
+@media (max-width: 320px) {
+    .panda {
+        width: 150px;
+        height: 110px;
+    }
+    .pick_and_feed {
+        font-size: 24px;
+    }
 }
